@@ -24,7 +24,9 @@
  
  STORE X : Store value in AC to memory location M[X]. Ex: STORE 10 means M[10]=AC
  
- CMPM M[X] : Compare, If the value in AC is greater than value in M[X] then set F flag to 1 
+ CMPM M[X] : Compare, 
+ 
+             If the value in AC is greater than value in M[X] then set F flag to 1 
  
              If the value in AC is less than value in M[X] then set F flag to -1  
              
