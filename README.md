@@ -2,8 +2,8 @@
  a CPU emulator software that support a basic instruction set (15 instructions).
  Computer has 256 bytes of available memory (M) initially set to zero.
  Emulator loads a program code from a text file.
- 
- Units
+ *
+ **Units**
  
  M[X] : Memory
  
@@ -14,7 +14,7 @@
  F : Flag
  
  
- Construction List
+ **Construction List**
  
  START : Starts the program execution.
  
@@ -53,7 +53,7 @@
  HALT : Stop execution.
  
  
- Program Code Files
+ **Program Code Files**
  
   1. program.txt : An app that can compute the sum of the numbers between 0 and 20.
   
