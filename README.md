@@ -27,11 +27,11 @@
  
  CMPM M[X] : Compare, 
  
-             If the value in AC is greater than value in M[X] then set F flag to 1 
- 
-             If the value in AC is less than value in M[X] then set F flag to -1  
-             
-             If the value in AC is equal to value in M[X] then set F flag to 0
+    If the value in AC is greater than value in M[X] then set F flag to 1 
+
+    If the value in AC is less than value in M[X] then set F flag to -1  
+
+    If the value in AC is equal to value in M[X] then set F flag to 0
              
  CJMP X : Conditional Jump, Update the PC with X if the F flag value is positive.
  
@@ -60,4 +60,4 @@
   
   2. program02.txt : an application that prints n×m matrix indices in row major order. The value of m and n variables initialized in the beginning of code.
   
-                     If n=3 and m=4 then it should print values 1 1 1 2 1 3 1 4 2 1 2 2 2 3 2 4 3 1 3 2 3 3 3 4 4 1 4 2 4 3 4 4(or vertically).
+    If n=3 and m=4 then it should print values 1 1 1 2 1 3 1 4 2 1 2 2 2 3 2 4 3 1 3 2 3 3 3 4 4 1 4 2 4 3 4 4(or vertically).
