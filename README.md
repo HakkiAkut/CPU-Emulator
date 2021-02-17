@@ -2,7 +2,8 @@
  a CPU emulator software that support a basic instruction set (15 instructions).
  Computer has 256 bytes of available memory (M) initially set to zero.
  Emulator loads a program code from a text file.
- *
+ 
+ 
  **Units**
  
  M[X] : Memory
